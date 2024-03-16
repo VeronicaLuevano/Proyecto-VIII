@@ -1,0 +1,43 @@
+/*menu*/
+
+/* Ocultar el menú por defecto */
+.menu {
+    display: none;
+    padding: 10px;
+    border-radius: 50%;
+    width: fit-content;
+  }
+  
+  /* Estilos para el menú desplegable */
+  .menu.show {
+    display: inline-block;
+    position: absolute;
+    top: 30px; /* Ajusta según sea necesario */
+    left: 0;
+    background-color: #295232;
+    box-shadow: 0 2px 4px rgba(206, 216, 199, 0.1);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .menu.show li {
+    list-style: none;
+    margin: 5px 0;
+  }
+  
+  .menu.show li a {
+    text-decoration: none;
+    color: #fbfdfa;
+  }
+  
+  .menu.show li a:hover {
+    color: #007bff;
+  }
+
+  #menu-button {
+    font-size: 30px; /* Tamaño de fuente ajustable */
+    color: #fbfdfa;
+    background: none; /* Elimina el fondo */
+    border: none; /* Elimina el borde */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }

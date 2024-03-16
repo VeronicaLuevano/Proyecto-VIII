@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "nombre": "Cloro",
+      "descripcion": "Cloro multiusos",
+      "imagen": "imagenes/cloro.png"
+    },
+    {
+      "id": 2,
+      "nombre": "Ariel",
+      "descripcion": "Jabón lava ropa",
+      "imagen": "imagenes/ariel.webp"
+    },
+    {
+      "id": 3,
+      "nombre": "Aromatizante",
+      "descripcion": "aromatizante fabuloso",
+      "imagen": "imagenes/aromatizante.jpeg"
+    },
+    {
+      "id": 4,
+      "nombre": "Detergente",
+      "descripcion": "Deterguente para ropa",
+      "imagen": "imagenes/detergente-1.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Limpiador multiusos",
+      "descripcion": "Jabón multiusos",
+      "imagen": "imagenes/limpiador_multiusos.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Pinol",
+      "descripcion": "Pinol multiusos",
+      "imagen": "imagenes/pinol.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Llantas",
+      "descripcion": "Jabón para llantas",
+      "imagen": "imagenes/limpialla.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Manos",
+      "descripcion": "Jabón para manos",
+      "imagen": "imagenes/manos.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Sarricida",
+      "descripcion": "Limpiador concentrado",
+      "imagen": "imagenes/sarricida.webp"
+    },
+    {
+      "id": 10,
+      "nombre": "Suavitel",
+      "descripcion": "Aromatizante para ropa",
+      "imagen": "imagenes/suavitel.jpg"
+    },
+    {
+      "id": 11,
+      "nombre": "Pulidor de pisos",
+      "descripcion": "Abrillantador de pisos",
+      "imagen": "imagenes/piso.webp"
+    }
+
+  ]
+  

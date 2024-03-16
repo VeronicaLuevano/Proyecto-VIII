@@ -1,0 +1,55 @@
+header {
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    color: hsl(64, 89%, 38%);
+    text-shadow: 2px 2px 4px #030303;
+    padding: 20px 0; /* Ajusta el espacio interno */
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos del encabezado a los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Pacifico', 'cursive', 'serif';
+    margin-bottom: 20px;
+    position: relative; /* Asegúrate de que el encabezado tenga una posición relativa */
+    z-index: 10000;
+  }
+    
+    /* Estilos para el logo */
+    .logo img {
+      max-height: 130px; /* Ajusta la altura del logo según sea necesario */
+      margin-left: 20px;
+    }
+    
+    /* Definición de la animación */
+  @keyframes bounce {
+    0% { transform: translateY(0); } /* Estado inicial */
+    50% { transform: translateY(-10px); } /* Estado medio */
+    100% { transform: translateY(0); } /* Estado final */
+  }
+  
+  /* Estilos para el título del encabezado con animación */
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation-name: bounce; /* Nombre de la animación */
+    animation-duration: 1s; /* Duración de la animación */
+    animation-timing-function: ease; /* Función de temporización de la animación */
+    animation-iteration-count: infinite; /* Número de repeticiones (en este caso, infinito) */
+  }
+
+    /*pie de pagina*/
+    footer {
+        background-color: rgba(224, 150, 212, 0.5); /* Color de fondo semi-transparente */
+        color: #000000; /* Color del texto */
+        text-align: center;
+        padding: 20px;
+      }
+      
+      
+      footer img {
+        width: 30px; /* Ajusta el tamaño del logo según sea necesario */
+        height: auto;
+      }
