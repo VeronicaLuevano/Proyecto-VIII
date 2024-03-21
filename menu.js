@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
     { text: 'Nuestros productos', href: 'Catalogo.html' },
     { text: 'Contacto', href: 'Contacto.html' }
   ];
-  
-s
   // Iteramos sobre las opciones del menú y las agregamos al menú
   menuOptions.forEach(function(option) {
       var li = document.createElement('li');
